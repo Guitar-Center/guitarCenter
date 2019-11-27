@@ -1,0 +1,284 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".lagu5">
+
+    <androidx.constraintlayout.widget.Guideline
+        android:id="@+id/guideline2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        app:layout_constraintGuide_begin="103dp" />
+
+    <androidx.constraintlayout.widget.Guideline
+        android:id="@+id/guideline3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        app:layout_constraintGuide_begin="124dp" />
+
+    <FrameLayout
+        android:id="@+id/frameLayout"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:background="@android:color/holo_orange_dark"
+        app:layout_constraintBottom_toTopOf="@+id/guideline2"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="1.0">
+
+    </FrameLayout>
+
+    <ImageView
+        android:id="@+id/imageView3"
+        android:layout_width="114dp"
+        android:layout_height="88dp"
+        app:layout_constraintBottom_toTopOf="@+id/guideline2"
+        app:layout_constraintEnd_toStartOf="@+id/guideline3"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/guitar_icon_png_17599" />
+
+    <ImageView
+        android:id="@+id/imageView4"
+        android:layout_width="159dp"
+        android:layout_height="212dp"
+        app:layout_constraintBottom_toTopOf="@+id/guideline2"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="@+id/guideline3"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/texticon" />
+
+    <androidx.constraintlayout.widget.Guideline
+        android:id="@+id/guideline"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        app:layout_constraintGuide_begin="174dp" />
+
+    <FrameLayout
+        android:id="@+id/frameLayout2"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:background="@color/cardview_light_background"
+        app:layout_constraintBottom_toTopOf="@+id/guideline"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/guideline2">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/textView6"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginTop="12dp"
+                android:text="Tolong"
+                android:textColor="@color/colorPrimary"
+                android:textSize="20sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/textView3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:text="Budi Doremi"
+                android:textColor="@color/colorPrimary"
+                android:textStyle="bold" />
+        </LinearLayout>
+    </FrameLayout>
+
+    <ScrollView
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/frameLayout2">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical" >
+
+            <TextView
+                android:id="@+id/textView4"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="[Intro]\n
+
+A Asus4 A D E\n\n
+
+
+
+[Verse]\n\n
+
+A                            Bm\n
+
+..Ku rasa ku sedang jatuh cinta\n
+
+E                       A\n
+
+..Karena rasanya ini berbeda\n
+
+A                         Bm\n
+
+..Oh apakah ini memang cinta\n
+
+E                            A  A7\n
+
+..Selalu berbeda saat menatapnya\n\n
+
+
+
+  D         Dm\n
+
+Mengapa aku begini\n
+
+  C#m\n
+
+Hilang berani dekat denganmu\n
+
+Bm\n
+
+Ingin ku memilikimu\n
+
+Dm             E\n
+
+Tapi aku tak tahu..\n
+
+Bagaimana caranya?\n\n
+
+
+
+[Chorus]\n\n
+
+   A                     Bm\n
+
+ Tolong katakan pada dirinya\n
+
+   E                      A\n
+
+ Lagu ini kutuliskan untuknya\n
+
+   F#m             F#           Bm\n
+
+ Namanya selalu ku sebut dalam doa\n
+
+    D\n
+
+ Sampai aku mampu\n
+
+  Dm         E     A\n
+
+ ucap maukah denganku?\n\n
+
+
+
+[Intro]\n\n
+
+A Asus4 A D E\n\n
+
+
+
+[Verse]\n\n
+
+A                            Bm\n
+
+..Ku rasa ku sedang jatuh cinta\n
+
+E                       A\n
+
+..Karena rasanya ini berbeda\n
+
+A                         Bm\n
+
+..Oh apakah ini memang cinta\n
+
+E                            A    A7\n
+
+..Selalu berbeda saat menatapnya huuu..\n\n
+
+
+
+  D        Dm\n
+
+Disini aku berdiri\n
+
+  C#m                F#\n
+
+Menanti waktu yang tepat hingga\n
+
+   Bm\n
+
+akhirnya ku mampu\n
+
+  D         E\n
+
+Katakan padamu..oo..\n\n
+
+
+
+[Chorus]\n\n
+
+   A                     Bm\n
+
+ Tolong katakan pada dirinya\n
+
+   E                      A\n
+
+ Lagu ini kutuliskan untuknya\n
+
+   F#m             F#          Bm\n
+
+ Namanya selalu ku sebut dalam doa\n
+
+     D\n
+
+ mungkinkah dia tahu\n
+
+    Dm           E\n
+
+ cinta yang ku mau..\n\n
+
+
+
+   A                     Bm\n
+
+ Tolong katakan pada dirinya\n
+
+   E                      A\n
+
+ Lagu ini kutuliskan untuknya\n
+
+   F#m             F#           Bm\n
+
+ Namanya selalu ku sebut dalam doa\n
+
+    D\n
+
+ Sampai aku mampu\n
+
+  Dm         E     A  F#\n
+
+ ucap maukah denganku hoooo\n
+
+   D          Dm   E  A Asus4 A Asus4 A\n
+
+ Maukah kau dengan a..ku?..\n"
+                android:textColor="@color/colorPrimary"
+                android:textSize="18sp" />
+        </LinearLayout>
+    </ScrollView>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

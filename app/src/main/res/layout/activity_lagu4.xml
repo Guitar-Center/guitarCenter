@@ -1,0 +1,370 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".lagu4">
+
+    <androidx.constraintlayout.widget.Guideline
+        android:id="@+id/guideline2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        app:layout_constraintGuide_begin="103dp" />
+
+    <androidx.constraintlayout.widget.Guideline
+        android:id="@+id/guideline3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        app:layout_constraintGuide_begin="124dp" />
+
+    <FrameLayout
+        android:id="@+id/frameLayout"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:background="@android:color/holo_orange_dark"
+        app:layout_constraintBottom_toTopOf="@+id/guideline2"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="1.0">
+
+    </FrameLayout>
+
+    <ImageView
+        android:id="@+id/imageView3"
+        android:layout_width="114dp"
+        android:layout_height="88dp"
+        app:layout_constraintBottom_toTopOf="@+id/guideline2"
+        app:layout_constraintEnd_toStartOf="@+id/guideline3"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/guitar_icon_png_17599" />
+
+    <ImageView
+        android:id="@+id/imageView4"
+        android:layout_width="159dp"
+        android:layout_height="212dp"
+        app:layout_constraintBottom_toTopOf="@+id/guideline2"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="@+id/guideline3"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/texticon" />
+
+    <androidx.constraintlayout.widget.Guideline
+        android:id="@+id/guideline"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        app:layout_constraintGuide_begin="174dp" />
+
+    <FrameLayout
+        android:id="@+id/frameLayout2"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:background="@color/cardview_light_background"
+        app:layout_constraintBottom_toTopOf="@+id/guideline"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/guideline2">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/textView6"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginTop="12dp"
+                android:text="Cinta Luar Biasa"
+                android:textColor="@color/colorPrimary"
+                android:textSize="20sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/textView3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:text="Andmesh Kamaleng"
+                android:textColor="@color/colorPrimary"
+                android:textStyle="bold" />
+        </LinearLayout>
+    </FrameLayout>
+
+    <ScrollView
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/frameLayout2">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical" >
+
+            <TextView
+                android:id="@+id/textView4"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="[Intro]\n
+
+A E/G# F#m\n
+
+D A/C# Bm E\n\n
+
+
+
+[Verse 1]\n\n
+
+      A\n
+
+Waktu pertama kali\n
+
+         F#m\n
+
+Ku lihat dirimu hadir\n
+
+  Bm\n
+
+Rasa hati ini\n
+
+         E\n
+
+Inginkan dirimu\n\n
+
+
+
+     A\n
+
+Hati tenang mendengar\n
+
+      F#m\n
+
+Suara indah menyapa\n
+
+      Bm\n
+
+Geloranya hati ini\n
+
+           E\n
+
+Tak ku sangka\n\n
+
+
+
+[Refrain]\n\n
+
+   D               E\n
+
+Rasa ini  tak tertahan\n
+
+  D                  E\n
+
+Hati ini  slalu untukmu\n\n
+
+
+
+[Chorus]\n\n
+
+       A        E/G#    F#m\n
+
+Terimalah lagu ini dari orang biasa\n
+
+     Bm                  E\n
+
+Tapi cintaku padamu luar biasa\n\n
+
+
+
+    F#m\n
+
+Aku tak punya bunga\n
+
+E   D            A/C#\n
+
+Aku tak punya harta\n
+
+        Bm         A/C#\n
+
+Yang ku punya hanyalah\n
+
+          D\n
+
+Hati yang setia\n
+
+  E       D  A/C# Bm E\n
+
+Tulus padamu\n\n
+
+
+
+[Verse 2]\n\n
+
+     A\n
+
+Hari-hari berganti\n
+
+     F#m\n
+
+Kini cintapun hadir\n
+
+    Bm\n
+
+Melihatmu memandangmu\n
+
+        E\n
+
+Bagai bidadari\n\n
+
+
+
+       A\n
+
+Lentik indah matamu\n
+
+      F#m\n
+
+Manis senyum bibirmu\n
+
+      Bm\n
+
+Hitam panjang rambutmu\n
+
+       E\n
+
+Anggun terikat\n\n
+
+
+
+[Refrain]\n\n
+
+   D               E\n
+
+Rasa ini  tak tertahan\n
+
+  D                  E\n
+
+Hati ini  slalu untukmu\n\n
+
+
+
+[Chorus]\n\n
+
+       A        E/G#    F#m\n
+
+Terimalah lagu ini dari orang biasa\n
+
+     Bm                  E\n
+
+Tapi cintaku padamu luar biasa\n\n
+
+
+
+    F#m\n
+
+Aku tak punya bunga\n
+
+E   D            A/C#\n
+
+Aku tak punya harta\n
+
+        Bm         A/C#\n
+
+Yang ku punya hanyalah\n
+
+          D\n
+
+Hati yang setia\n
+
+  E       D   E\n
+
+Tulus padamu ohoo\n
+
+ D    E\n
+
+..huuu...\n\n
+
+
+
+       A        E/G#    F#m\n
+
+Terimalah lagu ini     hmmm\n
+
+     Bm       E\n
+
+dari orang biasa..\n\n
+
+
+
+[Overtune]\n\n
+
+      B         F#/A#   G#m\n
+
+Terimalah lagu ini dari orang biasa\n
+
+     C#m                 F#\n
+
+Tapi cintaku padamu luar biasa\n\n
+
+
+
+    G#m\n
+
+Aku tak punya bunga\n
+
+F#  E            B/D#\n
+
+Aku tak punya harta\n
+
+        C#m        B/D#\n
+
+Yang ku punya hanyalah\n
+
+          E\n
+
+Hati yang setia\n\n
+
+
+
+F#      C#m        B/D#\n
+
+Yang ku punya hanyalah\n
+
+          E    F#\n
+
+Hati yang se..tia..\n
+
+
+
+[Outro]\n\n
+
+B F#/Bb G#m\n
+
+
+
+    E          B/D#\n
+
+Terimalah cintaku\n
+
+          C#m    F#\n
+
+yang luar biasa  hmm\n
+
+          B\n
+
+Tulus padamu\n"
+                android:textColor="@color/colorPrimary"
+                android:textSize="18sp" />
+        </LinearLayout>
+    </ScrollView>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

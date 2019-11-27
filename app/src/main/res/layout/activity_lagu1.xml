@@ -1,0 +1,372 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".lagu1">
+
+    <androidx.constraintlayout.widget.Guideline
+        android:id="@+id/guideline2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        app:layout_constraintGuide_begin="103dp" />
+
+    <androidx.constraintlayout.widget.Guideline
+        android:id="@+id/guideline3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        app:layout_constraintGuide_begin="124dp" />
+
+    <FrameLayout
+        android:id="@+id/frameLayout"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:background="@android:color/holo_orange_dark"
+        app:layout_constraintBottom_toTopOf="@+id/guideline2"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="1.0">
+
+    </FrameLayout>
+
+    <ImageView
+        android:id="@+id/imageView3"
+        android:layout_width="114dp"
+        android:layout_height="88dp"
+        app:layout_constraintBottom_toTopOf="@+id/guideline2"
+        app:layout_constraintEnd_toStartOf="@+id/guideline3"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/guitar_icon_png_17599" />
+
+    <ImageView
+        android:id="@+id/imageView4"
+        android:layout_width="159dp"
+        android:layout_height="212dp"
+        app:layout_constraintBottom_toTopOf="@+id/guideline2"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="@+id/guideline3"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/texticon" />
+
+    <androidx.constraintlayout.widget.Guideline
+        android:id="@+id/guideline"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        app:layout_constraintGuide_begin="174dp" />
+
+    <FrameLayout
+        android:id="@+id/frameLayout2"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:background="@color/cardview_light_background"
+        app:layout_constraintBottom_toTopOf="@+id/guideline"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/guideline2">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/judul"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginTop="12dp"
+                android:text="Hanya Rindu"
+                android:textColor="@color/colorPrimary"
+                android:textSize="20sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/artis"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:text="Andmesh Kamaleng"
+                android:textColor="@color/colorPrimary"
+                android:textStyle="bold" />
+        </LinearLayout>
+    </FrameLayout>
+
+    <ScrollView
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/frameLayout2">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical" >
+
+            <TextView
+                android:id="@+id/lirik"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="[Intro]\n\n
+
+Em  C  G D C\n\n
+
+Am G/B C  D\n\n
+
+
+
+
+
+[Verse]\n\n
+
+  G\n
+
+Saat ku sendiri\n
+
+     D\n
+
+Ku lihat foto dan video\n
+
+     C               D\n
+
+Bersamamu yang t'lah lama\n
+
+      G  C\n
+
+Kusimpan\n\n\n
+
+
+
+   G\n
+
+Hancur hati ini\n
+
+    D\n
+
+Melihat semua gambar diri\n
+
+         C       D          G\n
+
+Yang tak bisa ku ulang kembali\n\n\n
+
+
+
+
+
+[Chorus]\n\n
+
+        Em\n
+
+Kuingin saat ini\n
+
+   C         G\n
+
+Engkau ada disini\n
+
+  D     Em\n
+
+Tertawa bersamaku\n
+
+     C         D\n
+
+Seperti dulu lagi\n\n
+
+
+
+        Em\n
+
+Walau hanya sebentar\n
+
+  C            G  D  Em\n
+
+Tuhan tolong kabulkanlah\n
+
+  Am           C\n
+
+Bukannya diri ini\n
+
+           D\n
+
+Tak terima kenyataan\n
+
+         ( G )\n
+
+Hati ini hanya rindu\n\n\n
+
+
+
+
+
+[Interlude]\n\n
+
+G  G/B C D\n\n\n
+
+
+
+
+
+[Verse]\n\n
+
+G\n
+
+Segala cara\n
+
+      D\n
+
+Telah ku coba\n
+
+     C     D\n
+
+Agar aku bisa\n
+
+      G      C  D\n
+
+Tanpa dirimu hooo\n\n
+
+
+
+G\n
+
+Namun semua\n
+
+D\n
+
+Ber beda\n
+
+      C            D\n
+
+Sulit ku menghapus kenangan\n
+
+     G\n
+
+Bersamamu\n\n\n
+
+
+
+
+
+[Chorus]\n\n
+
+        Em\n
+
+Kuingin saat ini\n
+
+   C         G\n
+
+Engkau ada disini\n
+
+D      Em\n
+
+Tertawa bersamaku\n
+
+     C         D\n
+
+Seperti dulu lagi\n\n
+
+
+
+        Em\n
+
+Walau hanya sebentar\n
+
+  C            G  D  Em\n
+
+Tuhan tolong kabulkanlah\n
+
+  Am        C\n
+
+Bukan diri ini\n
+
+           D\n
+
+Tak terima kenyataan\n
+
+           C           Em\n
+
+Hati ini hanya rindu hooo\n
+
+  G         C      D\n
+
+Hanya rindu hooo ooo\n\n\n
+
+
+
+
+
+[Instrumental]\n\n
+
+Em  C  G  D Em  C  D\n\n\n
+
+
+
+
+
+[Chorus]\n\n
+
+        F#m\n
+
+Kuingin saat ini\n
+
+   D         A\n
+
+Engkau ada disini\n
+
+   E    F#m\n
+
+Tertawa bersamaku\n
+
+     D         E\n
+
+Seperti dulu lagi\n\n\n
+
+
+
+        F#m\n
+
+Walau hanya sebentar\n
+
+  D            A  E  F#m\n
+
+Tuhan tolong kabulkanlah\n
+
+  Bm           D\n
+
+Bukannya diri ini\n
+
+           E\n
+
+Tak terima kenyataan hoo\n
+
+  Bm           D\n
+
+Bukannya diri ini\n
+
+           E\n
+
+Tak terima kenyataan\n
+
+           A        A D E\n
+
+Hati ini hanya rindu hooo\n
+
+           A         A D E\n
+
+Hati ini hanya rindu hmmm\n
+
+                   A\n
+
+Ku rindu senyummu ibu\n"
+                android:textColor="@color/colorPrimary"
+                android:textSize="18sp" />
+        </LinearLayout>
+    </ScrollView>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

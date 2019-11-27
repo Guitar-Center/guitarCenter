@@ -1,0 +1,262 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".lagu2">
+
+    <androidx.constraintlayout.widget.Guideline
+        android:id="@+id/guideline2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        app:layout_constraintGuide_begin="103dp" />
+
+    <androidx.constraintlayout.widget.Guideline
+        android:id="@+id/guideline3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        app:layout_constraintGuide_begin="124dp" />
+
+    <FrameLayout
+        android:id="@+id/frameLayout"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:background="@android:color/holo_orange_dark"
+        app:layout_constraintBottom_toTopOf="@+id/guideline2"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="1.0">
+
+    </FrameLayout>
+
+    <ImageView
+        android:id="@+id/imageView3"
+        android:layout_width="114dp"
+        android:layout_height="88dp"
+        app:layout_constraintBottom_toTopOf="@+id/guideline2"
+        app:layout_constraintEnd_toStartOf="@+id/guideline3"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/guitar_icon_png_17599" />
+
+    <ImageView
+        android:id="@+id/imageView4"
+        android:layout_width="159dp"
+        android:layout_height="212dp"
+        app:layout_constraintBottom_toTopOf="@+id/guideline2"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="@+id/guideline3"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/texticon" />
+
+    <androidx.constraintlayout.widget.Guideline
+        android:id="@+id/guideline"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        app:layout_constraintGuide_begin="174dp" />
+
+    <FrameLayout
+        android:id="@+id/frameLayout2"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:background="@color/cardview_light_background"
+        app:layout_constraintBottom_toTopOf="@+id/guideline"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/guideline2">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/textView6"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginTop="12dp"
+                android:text="Harusnya Aku"
+                android:textColor="@color/colorPrimary"
+                android:textSize="20sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/textView3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:text="Armada"
+                android:textColor="@color/colorPrimary"
+                android:textStyle="bold" />
+        </LinearLayout>
+    </FrameLayout>
+
+    <ScrollView
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/frameLayout2">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical" >
+
+            <TextView
+                android:id="@+id/textView4"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="Intro :\n C F Dm G 2x C\n\n
+
+
+
+             C\n
+
+Ku tak bahagia,\n
+
+                F\n
+
+melihat kau bahagia dengannya\n
+
+       Dm\n
+
+Aku terluka,\n
+
+    G              C\n
+
+tak bisa dapatkan kau sepenuhnya\n
+
+         C\n
+
+Aku terluka,\n
+
+                    F\n
+
+melihat kau bermesraan dengannya\n
+
+            Dm G             C\n
+
+Ku tak bahagia melihat kau bahagia..\n\n\n
+
+
+
+Reff 1\n\n
+
+          F               G\n
+
+    Harusnya aku yang disana\n
+
+          Em             Am\n
+
+    Dampingimu dan bukan dia\n
+
+        Dm                   G            C\n
+
+    Harusnya aku yang kau cinta dan bukan dia\n\n
+
+
+
+           F             G\n
+
+    Harusnya kau tahu bahwa\n
+
+       Em             Am\n
+
+    Cintaku lebih darinya\n
+
+         Dm             G         C\n
+
+    Harusnya yang kau pilih bukan dia..\n\n
+
+
+
+            C                    F\n
+
+Ku tak bahagia, melihat kau bahagia dengannya\n
+
+            Dm  G               C\n
+
+Ku tak bahagia, melihat kau bahagia\n\n
+
+
+
+Reff 2\n\n
+
+          F               G\n
+
+    Harusnya aku yang disana\n
+
+          Em             Am\n
+
+    Dampingimu dan bukan dia\n
+
+         Dm                 G             C\n
+
+    Harusnya aku yang kau cinta dan bukan dia\n\n
+
+
+
+          F              G\n
+
+    Harusnya kau tahu bahwa\n
+
+      Em             Am\n
+
+    Cintaku lebih darinya\n
+
+         Dm             G         C\n
+
+    Harusnya yang kau pilih bukan dia..\n\n
+
+
+
+Int. Am F C F G\n\n
+
+
+
+Reff 2\n\n
+
+          F               G\n
+
+    Harusnya aku yang disana\n
+
+          Em             Am\n
+
+    Dampingimu dan bukan dia\n
+
+         Dm                 G             C\n
+
+    Harusnya aku yang kau cinta dan bukan dia\n\n
+
+
+
+          F              G\n
+
+    Harusnya kau tahu bahwa\n
+
+      Em             Am\n
+
+    Cintaku lebih darinya\n
+
+         Dm             G         C\n
+
+    Harusnya yang kau pilih bukan dia..\n\n
+
+
+
+Outro : C F C\n"
+                android:textColor="@color/colorPrimary"
+                android:textSize="18sp" />
+        </LinearLayout>
+    </ScrollView>
+
+</androidx.constraintlayout.widget.ConstraintLayout>
