@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "393266054673",
+    "firebase_url": "https://gitarcompare.firebaseio.com",
+    "project_id": "gitarcompare",
+    "storage_bucket": "gitarcompare.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:393266054673:android:a069e16d42036b520253b0",
+        "android_client_info": {
+          "package_name": "com.example.gitarcompare"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "393266054673-4bpkn5570egtmjn4ps15aglmo0b0m9qr.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.gitarcompare",
+            "certificate_hash": "2d3ba789c94256e157c39bd5b701ed781f66dc95"
+          }
+        },
+        {
+          "client_id": "393266054673-22glv69d87i543i2v7njfi63ih4et26e.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyC-NHjCvDx_md96izZ4uC_Ro1w8FytEfy0"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "393266054673-22glv69d87i543i2v7njfi63ih4et26e.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
