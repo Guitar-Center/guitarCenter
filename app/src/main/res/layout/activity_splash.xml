@@ -7,6 +7,7 @@
     android:background="@color/color2"
     tools:context=".SplashActivity" >
 
+
     <ImageView
         android:id="@+id/imageView"
         android:layout_width="wrap_content"
