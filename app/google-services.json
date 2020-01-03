@@ -15,6 +15,14 @@
       },
       "oauth_client": [
         {
+          "client_id": "393266054673-nl3aaq60noddoc3atc4cobpamt3fpumq.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.gitarcompare",
+            "certificate_hash": "434c4b2202bbdfb183797a91fe2a53fec2465e36"
+          }
+        },
+        {
           "client_id": "393266054673-4bpkn5570egtmjn4ps15aglmo0b0m9qr.apps.googleusercontent.com",
           "client_type": 1,
           "android_info": {
