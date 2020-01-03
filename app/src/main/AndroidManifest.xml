@@ -16,6 +16,7 @@
         <activity android:name=".lagu3" />
         <activity android:name=".lagu2" />
         <activity android:name=".lagu1" />
+        <activity android:name=".KumpulanLagu" />
         <activity android:name=".TutorialChord" />
         <activity android:name=".LoginActivity"></activity>
         <activity android:name=".SplashActivity">
